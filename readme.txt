@@ -1,7 +1,16 @@
 # Presentation for the WaveUpdate on 30/01/2026
 
-Compiled using: @marp-team/marp-cli v4.2.3 (w/ @marp-team/marp-core v4.1.0)
-As much as I like the idea, this tool is fucking slow. Which is expected as it is written in typescript. Where are we going as humanity?
+Compiled with pandoc:
+```bash
+$ pandoc --version
+pandoc 3.6.4
+Features: +server +lua
+Scripting engine: Lua 5.4
+User data directory: /home/dscalcon/.local/share/pandoc
+Copyright (C) 2006-2024 John MacFarlane. Web: https://pandoc.org
+This is free software; see the source for copying conditions. There is no
+warranty, not even for merchantability or fitness for a particular purpose.
+```
 
 title: PCB design workflow
 content: The presentation goes trough the design I recently made for the somerville box mount PCB; 
