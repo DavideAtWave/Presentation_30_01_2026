@@ -51,6 +51,7 @@ toc: false
 * Divide the circuits into functional blocks and find a topology that implement the target functionality.
 * Select components depending on requirements and availability.
 * Run simulations if possible/required.
+* Always think about testing
 
 In this presentation example:
 
@@ -86,36 +87,44 @@ Configuration is done during assembly.
 
 # Creation of custom symbols/footprint
 
-* The workflow of in PCB design is: schematic -> DRC -> layout -> DRC
+* The workflow of PCB design: schematic $\rightarrow$ DRC $\rightarrow$ layout $\rightarrow$ DRC
 
 * In the schematic you place and connect symbols, documenting the functionalities.
 
 * In the layout phase, footprints associated with the symbols are placed on the PCB, electrical connections are made using traces.
 
-* Symbols and footprints for lot of components can be found online, it is sometimes needed to make custom ones (e.g. somerville box)
-
-
-:::: column
-![Custom footprint of the Somerville box](img/sch.jpg)
-::::
-
-:::
+## Symbols and footprints for lot of components can be found online, it is sometimes needed to make custom ones (e.g. somerville box)
 
 
 
 # Schematic
-- Think about testing
+- Organize the functional blocks to make it readable
+- Comment to make design choices clear
+- Put references to datascheet/images in case this helps
+- Use the features offered by the software:
+    - Hierarchical sheets
+    - Net classes
+    - Labels
+    - Buses
 
 
 
 # PCB layout
-- Think about testing
+- Make your life easier when laying out test areas
+- Mind mechanical constraints
+- Check on the manufacturer website what are the capabilities (minimum track width, minimum spacing, copper thickness...) and set them on the software for correct DRC
+- Add Wave Photonics logo and version information on it
 
 
 
 # Submission to manufacturer
+- (I'll do it next week)
+- There are a lot, with a wide range of prices
+- I'll not recommend one
+- Some are specialized on mass manufacturing, other on small scale and precise assembly
 
 
 
 # Firmware development and testing
-
+- You should have an ordered list of tests to be done
+- It is quite common to start by writing the firmware for logic components on the board
