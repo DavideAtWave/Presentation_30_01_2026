@@ -37,18 +37,19 @@ toc: false
 - Can be used as graphic frontend for ngspice (or other spice-like network simulators)
 - Provides graphic and a python (socket-based) interface, especially useful to automate PCB layout
 - Can generate 3D models of the final product
+- Interface with version control software
 
 
 
 # Collect requirements and specs
 - Ask for the most detailed description, fill the gaps and feed back
 - Once fixed do not change, if needed start over
-- Make fewer assumptions as possible
+- Make as few assumptions as possible
 
 
 
 # Circuit design and components selection
-* Divide the circuits into functional blocks and find a topology that implement the target functionality.
+* Divide the circuits into functional blocks and find a topology that implements the target functionality.
 * Select components depending on requirements and availability.
 * Run simulations if possible/required.
 * Always think about testing
@@ -119,9 +120,9 @@ Configuration is done during assembly.
 
 # Submission to manufacturer
 - (I'll do it next week)
-- There are a lot, with a wide range of prices
+- There are many, with a wide range of prices
 - I'll not recommend one
-- Some are specialized on mass manufacturing, other on small scale and precise assembly
+- Some are specialized on mass manufacturing, other on small scale and precise assembly (e.g. UHF PCBs, X-ray check, space applications)
 
 
 
