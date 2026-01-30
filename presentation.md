@@ -12,7 +12,7 @@ toc: false
 ---
 
 # Mount PCB for Somerville box
-![3D rendering of the designed PCB using kicad 9.0](img/20260129_08h53m42s_grim.png){width=75%}
+![3D rendering of the designed PCB](img/20260129_08h53m42s_grim.png){width=75%}
 
 
 
@@ -128,3 +128,7 @@ Configuration is done during assembly.
 # Firmware development and testing
 - You should have an ordered list of tests to be done
 - It is quite common to start by writing the firmware for logic components on the board
+- Always more time consuming than you think
+
+# Questions?
+The forst Wave Update shorter than half an hour ends here.
