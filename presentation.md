@@ -100,7 +100,7 @@ Configuration is done during assembly.
 # Schematic
 - Organize the functional blocks to make it readable
 - Comment to make design choices clear
-- Put references to datascheet/images in case this helps
+- Put references to datasheet/images in case this helps
 - Use the features offered by the software:
     - Hierarchical sheets
     - Net classes
@@ -131,4 +131,4 @@ Configuration is done during assembly.
 - Always more time consuming than you think
 
 # Questions?
-The forst Wave Update shorter than half an hour ends here.
+The first Wave Update shorter than half an hour ends here.
